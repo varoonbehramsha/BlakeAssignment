@@ -18,6 +18,8 @@
 		C016BF3F23F8B2B100095611 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF3E23F8B2B100095611 /* Login.swift */; };
 		C016BF4323F8B8BD00095611 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF4223F8B8BD00095611 /* UserService.swift */; };
 		C016BF4523F8B8C800095611 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF4423F8B8C800095611 /* UserManager.swift */; };
+		C016BF4723F8E9C300095611 /* UserManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF4623F8E9C300095611 /* UserManagerTests.swift */; };
+		C016BF4923F8F13F00095611 /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF4823F8F13F00095611 /* Seeds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		C016BF3E23F8B2B100095611 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		C016BF4223F8B8BD00095611 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		C016BF4423F8B8C800095611 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		C016BF4623F8E9C300095611 /* UserManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerTests.swift; sourceTree = "<group>"; };
+		C016BF4823F8F13F00095611 /* Seeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seeds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			children = (
 				C016BF2F23F8B1C500095611 /* BlakeAssignmentTests.swift */,
 				C016BF3123F8B1C500095611 /* Info.plist */,
+				C016BF4623F8E9C300095611 /* UserManagerTests.swift */,
+				C016BF4823F8F13F00095611 /* Seeds.swift */,
 			);
 			path = BlakeAssignmentTests;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C016BF4723F8E9C300095611 /* UserManagerTests.swift in Sources */,
 				C016BF3023F8B1C500095611 /* BlakeAssignmentTests.swift in Sources */,
+				C016BF4923F8F13F00095611 /* Seeds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

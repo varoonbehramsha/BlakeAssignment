@@ -19,6 +19,7 @@ enum User : Codable
 	case child(Child)
 	case unknown
 	
+	
 	enum CodingKeys : String, CodingKey
 	{
 		case type
@@ -42,6 +43,27 @@ enum User : Codable
 			self = .child(child)
 		case .unknown:
 			self = .unknown
+		}
+	}
+	
+	//MARK: Getters
+	func parent() -> Parent?
+	{
+		switch self {
+		case .parent(let parent):
+			return parent
+		default:
+			return nil
+		}
+	}
+	
+	func child() -> Child?
+	{
+		switch self {
+		case .child(let child):
+			return child
+		default:
+			return nil
 		}
 	}
 	
