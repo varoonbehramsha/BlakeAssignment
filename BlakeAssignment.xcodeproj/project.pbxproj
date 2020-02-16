@@ -14,6 +14,10 @@
 		C016BF2223F8B1C400095611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C016BF2123F8B1C400095611 /* Assets.xcassets */; };
 		C016BF2523F8B1C400095611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C016BF2323F8B1C400095611 /* LaunchScreen.storyboard */; };
 		C016BF3023F8B1C500095611 /* BlakeAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF2F23F8B1C500095611 /* BlakeAssignmentTests.swift */; };
+		C016BF3C23F8B20300095611 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF3B23F8B20300095611 /* User.swift */; };
+		C016BF3F23F8B2B100095611 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF3E23F8B2B100095611 /* Login.swift */; };
+		C016BF4323F8B8BD00095611 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF4223F8B8BD00095611 /* UserService.swift */; };
+		C016BF4523F8B8C800095611 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016BF4423F8B8C800095611 /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		C016BF2B23F8B1C500095611 /* BlakeAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlakeAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C016BF2F23F8B1C500095611 /* BlakeAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlakeAssignmentTests.swift; sourceTree = "<group>"; };
 		C016BF3123F8B1C500095611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C016BF3B23F8B20300095611 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C016BF3E23F8B2B100095611 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C016BF4223F8B8BD00095611 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		C016BF4423F8B8C800095611 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		C016BF1723F8B1C300095611 /* BlakeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				C016BF3A23F8B1DC00095611 /* User Management */,
 				C016BF1823F8B1C300095611 /* AppDelegate.swift */,
 				C016BF1A23F8B1C300095611 /* SceneDelegate.swift */,
 				C016BF1C23F8B1C300095611 /* ViewController.swift */,
@@ -97,6 +106,41 @@
 				C016BF3123F8B1C500095611 /* Info.plist */,
 			);
 			path = BlakeAssignmentTests;
+			sourceTree = "<group>";
+		};
+		C016BF3A23F8B1DC00095611 /* User Management */ = {
+			isa = PBXGroup;
+			children = (
+				C016BF4123F8B89700095611 /* Service */,
+				C016BF4023F8B87B00095611 /* Manager */,
+				C016BF3D23F8B20F00095611 /* Model */,
+			);
+			path = "User Management";
+			sourceTree = "<group>";
+		};
+		C016BF3D23F8B20F00095611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C016BF3B23F8B20300095611 /* User.swift */,
+				C016BF3E23F8B2B100095611 /* Login.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C016BF4023F8B87B00095611 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C016BF4423F8B8C800095611 /* UserManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C016BF4123F8B89700095611 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C016BF4223F8B8BD00095611 /* UserService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +244,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C016BF3C23F8B20300095611 /* User.swift in Sources */,
+				C016BF3F23F8B2B100095611 /* Login.swift in Sources */,
+				C016BF4523F8B8C800095611 /* UserManager.swift in Sources */,
+				C016BF4323F8B8BD00095611 /* UserService.swift in Sources */,
 				C016BF1D23F8B1C300095611 /* ViewController.swift in Sources */,
 				C016BF1923F8B1C300095611 /* AppDelegate.swift in Sources */,
 				C016BF1B23F8B1C300095611 /* SceneDelegate.swift in Sources */,
